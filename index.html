@@ -39,19 +39,28 @@
 <div class="container">
 
    <header>
-<script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="https://use.fontawesome.com/d9770e5796.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<! -- If you want to use Google Analyatics, replace GOOGLE-TRACKING-ID in the footer of this text file with your GA tracking ID.-->	   
+<! -- A Google Analytics tracking ID should look something like this: UA-1234-56 -->
+	   <script src="https://use.fontawesome.com/d9770e5796.js"></script>
 
 	  <div class="row">
 		<div class="logo">
 			<h2 class="text-center animated fadeInDown delayTwo"><a target="_blank" href="http://www.woodridge.k12.oh.us/">
-	       <img src="http://www.woodridge.k12.oh.us/portal/portal/woodridge_stripe.png"></a>  Woodridge Academic Portal</h2>
-			    <h5 class="text-center">www.woodridge.k12.oh.us/portal</h5>
+	       <img src="http://www.woodridge.k12.oh.us/portal/portal/woodridge_stripe.png"></a>  
+<!-- What is the name of your academic portal? -->
+Woodridge Academic Portal</h2>
+<!-- What is the url of your academic portal? -->
+<h5 class="text-center">www.woodridge.k12.oh.us/portal</h5>
 		</div>
 	   </div>				
    </header>
    
    <div class="tabs">
 		<ul class="animated flipInX tabNavigation">
+<!-- Which navigation buttons would you like at the top of each screen? -->
+<!-- Note that each section (button) should have a corresponding ID -->
+<!-- "#staff" in the navigation section should have a corresponding section in the body below, ie. id="staff" -->			
 			<li><a href="#staff" class="">Staff</a></li>
 			<li><a href="#pd" class="">PD</a></li>
 			<li><a href="#students" class="">K-2</a></li>
@@ -61,6 +70,7 @@
 			<br><br>
 			<li><a href="#textbooks" class="">Textbooks</a></li>
 			<li><a href="#tech" class="">Tech</a></li>
+<!-- It's easy enough to hide a section for use for part of the year, just comment it out from the menu... -->			
 			<!-- <li><a href="#tech" class="">Announcements</a></li> -->
 			
 
@@ -443,7 +453,7 @@ Chromebooks, chargers &amp; cases will be collected during homeroom on the dates
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-70961-16', 'auto');
+  ga('create', 'TRACKING-ID-HERE', 'auto');
   ga('send', 'pageview');
 
 </script>
